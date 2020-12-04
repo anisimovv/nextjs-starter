@@ -23,7 +23,7 @@ const Products = (props) => {
 export default Products;
 
 export const getStaticProps = async () => {
-  const res = await fetch("http://localhost:8000/")
+  const res = await fetch("https://morgan-shop.herokuapp.com/")
   const products = await res.json();
 
   return { props: {products: products, hello: "world"} };
