@@ -3,9 +3,7 @@ import Head from "next/head";
 
 import Layout from "../components/layout";
 
-interface Props {}
-
-const Products = (props: Props) => {
+const Products = (props) => {
   return (
     <Layout>
       <Head>
